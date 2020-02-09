@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MVVMProject.Model;
+using MVVMProject.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +25,7 @@ namespace MVVMProject
         public MainWindow()
         {
             InitializeComponent();
+            //DataContext = new PersonViewModel();
         }
     }
 }

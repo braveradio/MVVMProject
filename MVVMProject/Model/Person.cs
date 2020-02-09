@@ -14,7 +14,7 @@ namespace MVVMProject.Model
 		public string FName
 		{
 			get { return fName; }
-			set { fName = value; OnPropertyChanged("FName"); }
+			set { fName = value; } // OnPropertyChanged("FName"); }
 		}
 
 		private string lName;
@@ -22,7 +22,7 @@ namespace MVVMProject.Model
 		public string LName
 		{
 			get { return lName; }
-			set { lName = value; OnPropertyChanged("LName"); }
+			set { lName = value; } // OnPropertyChanged("LName"); }
 		}
 
 		private string fullName;

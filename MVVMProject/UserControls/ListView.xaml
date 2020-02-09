@@ -19,7 +19,6 @@
                     <GridViewColumn Header="Last Name" DisplayMemberBinding="{Binding LName}" Width="Auto" />
                     <GridViewColumn Header="Full Name" DisplayMemberBinding="{Binding FullName}" Width="Auto" />
                     <!--<GridViewColumn Header="Date Added" DisplayMemberBinding="{Binding DateAdded, Converter={StaticResource MyConverter}}" Width="Auto" />-->
-                    
                 </GridView>
             </ListView.View>
         </ListView>
